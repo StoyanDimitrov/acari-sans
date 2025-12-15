@@ -28,8 +28,8 @@ familyName: "Acari Sans"
 
 # buildVariable: true
 # buildStatic: true
-# buildTTF: true
-buildOTF: false
+buildTTF: true
+buildOTF: true
 # buildSmallCap: false
 
 # The next flags control autohinting.
