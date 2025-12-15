@@ -14,6 +14,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install ttfautohint libcairo2-dev libgirepository1.0-dev pkg-config python3-dev
         sudo snap install yq
+        python -m pip install --upgrade pip
     - uses: actions/cache@v4
       with:
         path: ./venv/
